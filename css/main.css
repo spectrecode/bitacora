@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url(../img/kawai.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed
+}
+@font-face {
+    font-family: "Cruel_Sun";
+    src: url(../fonts/Cruel_Sun.ttf) format("truetype");    		
+}
+
+@font-face {
+    font-family: "Sunday-Regular";	
+    src: url(../fonts/Sunday-Regular.otf) format("truetype");
+}
+h1 {
+	font-family: "Cruel_Sun";
+	font-size: 120px;
+}
+.ocultar{
+	display: none;
+}
+.tipopublicacion {
+	opacity: 0;
+    font-size: 80px;
+    height: 4.6em;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    color: #ff6c00;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+.texto:hover .tipopublicacion {
+	opacity: 0.5;
+	background: #3a1706;
+}
+.cita:hover .tipopublicacion {
+	opacity: 0.5;
+	background: #3a1706;
+}
+.meme:hover .tipopublicacion {
+	opacity: 0.5;
+	background: #3a1706;
+}
+.pastillas:hover .tipopublicacion {
+	opacity: 0.5;
+	background: #3a1706;
+}
+.jumbo {
+	background-image: url(../img/jumbo.jpg);
+	background-size: cover;
+}
+.contenedor {
+	background-color: black;
+	max-width: 900px;
+}
+.estiloTitulo {
+    background-color: #6f3502;
+    color: #f3c488;
+    font-family: "Sunday-Regular";
+}
+.inputTitulo {
+	width: 250px;
+    display: inline-block;
+}
+.titulo {
+    color: #f3c488;
+    font-size: 40px;
+    font-family: "Sunday-Regular";
+}
+.cita, .meme, .pastillas, .texto {
+	background-size: cover;
+    height: 23em;
+    margin: 35px 30px;
+    max-width: 43%
+}
+.texto {
+    background-image: url(../img/escritor.jpg);
+    background-position-y: -9px;
+}
+.cita {
+	background-image: url(../img/sir.jpg);
+    background-position-x: -4px;
+}
+.meme {
+	background-image: url(../img/meme.jpg);
+    background-position-x: -28px;
+}
+.pastillas {
+	background-image: url(../img/medico.jpg);
+    background-position-x: -147px;
+}
+.estiloInput {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenTexto {
+	background-image: url(../img/fondotexto.jpg);
+	padding-top: 50px;
+    margin-bottom: 15px;
+    padding-bottom: 10%;
+}
+.titulotexto{
+	color: white;
+	font-size: 25px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Bitácora</title>
+</head>
+<body>
+	<section class="container contenedor js-add text-lg-center">
+		<div class="jumbotron jumbo">
+			<h1>Mi Bitácora</h1>
+		</div>
+		<div id="usuarioBitacora" class="text-lg-center estiloTitulo h3">Añadir nombre de bitácora</div>
+		<form id="formTitulo" class="text-lg-center">
+			<input type="text" name="titulo" class="form-control inputTitulo" placeholder="Añade tu nombre...">
+            <input type="submit" value="agregar" class="btn btn-secondary">
+		</form>
+		<div class="container caja">
+			<div class="row">
+				<div class="texto col-lg-6 img-circle">
+					<span class="tipopublicacion img-circle">Diario</span>
+				</div>
+				<div class="cita col-lg-6 img-circle">
+					<span class="tipopublicacion img-circle">La cita del día</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="meme col-lg-6 img-circle">
+					<span class="tipopublicacion img-circle">Meme</span>
+				</div>
+				<div class="pastillas col-lg-6 img-circle">
+					<span class="tipopublicacion img-circle">Pastillita</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
