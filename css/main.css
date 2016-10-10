@@ -26,14 +26,15 @@ h1 {
 }
 .tipopublicacion {
 	opacity: 0;
-    font-size: 80px;
-    height: 4.6em;
+    font-size: 70px;
+    height: 5.3em;
     position: absolute;
     width: 100%;
     left: 0;
     color: #ff6c00;
     padding-top: 100px;
     transition: 0.5s;
+    font-family: "Cruel_Sun";
 }
 .texto:hover .tipopublicacion {
 	opacity: 0.5;
